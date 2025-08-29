@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razones para Ver Anime - Aniframe</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        .cards {
+            padding: 2rem 4rem;
+        }
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+        .card {
+            background: #23233a;
+            border-radius: 18px;
+            box-shadow: 0 4px 16px #0003;
+            padding: 2rem 1.5rem 1.5rem 1.5rem;
+            text-align: left;
+            transition: transform 0.2s;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            min-height: 340px;
+        }
+        .card img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 16px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 8px #0002;
+            align-self: center;
+        }
+        .card h3 {
+            margin: 0.5rem 0 0.5rem 0;
+            color: #ff4e9b;
+            font-size: 1.3rem;
+        }
+        .card p {
+            font-size: 1.05rem;
+            margin-bottom: 0;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        @media (max-width: 900px) {
+            .cards {
+                padding: 1rem;
+            }
+            .card-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../assets/images/logo-anime.png" alt="Logo Aniframe" />
+            <span>Aniframe</span>
+        </div>
+        <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="recomendaciones.html">Recomendaciones</a></li>
+            <li><a href="razones.html" class="active">Razones</a></li>
+            <li><a href="generos.html">Géneros</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="top.html">Top Animes</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>¿Por qué deberías ver anime?</h1>
+            <p>Descubre una lista extensa de motivos para sumergirte en el mundo del anime, con ejemplos y argumentos para todos los gustos.</p>
+        </div>
+        <img src="../assets/images/razones.jpg" alt="Razones para ver Anime" class="hero-img"/>
+    </header>
+    <section class="cards">
+        <h2>Motivos para ver anime</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="../assets/images/creatividad.jpg" alt="Creatividad">
+                <h3>Creatividad sin límites</h3>
+                <p>
+                    El anime es un medio donde la imaginación no tiene fronteras. Mundos fantásticos, reglas propias, criaturas únicas y poderes increíbles son solo el inicio. Series como <strong>Made in Abyss</strong> o <strong>Spirited Away</strong> demuestran cómo el anime puede transportarte a universos que nunca imaginaste, con historias originales y giros sorprendentes que no se ven en otros formatos.
+                </p>
+            </div>
+            <div class="card">
+                <img src="../assets/images/valores.jpg" alt="Valores">
+                <h3>Valores y enseñanzas</h3>
+                <p>
+                    El anime está lleno de mensajes positivos sobre la amistad, el esfuerzo, la superación personal y la empatía. Ejemplos como <strong>Naruto</strong> y <strong>My Hero Academia</strong> muestran cómo los personajes luchan por sus sueños, aprenden de sus errores y valoran el trabajo en equipo, inspirando a los espectadores a nunca rendirse.
+                </p>
+            </div>
+            <div class="card">
+                <img src="../assets/images/arte.jpg" alt="Arte">
+                <h3>Estética visual</h3>
+                <p>
+                    La animación japonesa es reconocida mundialmente por su belleza y detalle. Obras como <strong>Your Name</strong> o <strong>Demon Slayer</strong> destacan por sus paisajes, colores y secuencias de acción espectaculares, convirtiendo cada episodio en una experiencia visual única.
+                </p>
+            </div>
+            <div class="card">
+                <img src="../assets/images/comunidad.jpg" alt="Comunidad">
+                <h3>Gran comunidad</h3>
+                <p>
+                    El anime une a millones de personas en todo el mundo. Existen convenciones, foros, grupos y eventos donde los fans comparten teorías, arte, cosplay y recomendaciones. Ser parte de esta comunidad te permite conocer gente con tus mismos intereses y hacer amistades duraderas.
+                </p>
+            </div>
+            <div class="card">
+                <img src="../assets/images/diversidad.jpg" alt="Diversidad">
+                <h3>Diversidad de géneros</h3>
+                <p>
+                    Hay anime para todos los gustos: acción, romance, terror, comedia, deportes, ciencia ficción, slice of life, drama y mucho más. No importa tu edad o tus intereses, siempre encontrarás una historia que te atrape y te represente.
+                </p>
+            </div>
+            <div class="card">
+                <img src="../assets/images/cultura.jpg" alt="Cultura japonesa">
+                <h3>Aprender sobre Japón</h3>
+                <p>
+                    El anime es una ventana a la cultura japonesa. A través de sus historias puedes conocer costumbres, gastronomía, festivales, idioma y tradiciones de Japón, todo de forma entretenida y natural.
+                </p>
+            </div>
+            <div class="card">
+                <img src="../assets/images/emociones.jpg" alt="Emociones">
+                <h3>Emociones intensas</h3>
+                <p>
+                    El anime es capaz de hacerte reír, llorar, emocionarte y reflexionar. Series como <strong>Anohana</strong> o <strong>Clannad</strong> son conocidas por tocar el corazón de los espectadores y dejar huella emocional.
+                </p>
+            </div>
+            <div class="card">
+                <img src="../assets/images/innovacion.jpg" alt="Innovación">
+                <h3>Innovación constante</h3>
+                <p>
+                    El anime siempre está explorando nuevas ideas, formatos y tecnologías. Desde animación tradicional hasta CGI, pasando por historias interactivas y experimentales, el medio nunca deja de evolucionar.
+                </p>
+            </div>
+            <div class="card">
+                <img src="../assets/images/representacion.jpg" alt="Representación">
+                <h3>Personajes diversos</h3>
+                <p>
+                    El anime presenta una gran variedad de personajes: héroes, villanos, personajes LGBTQ+, niños, adultos, ancianos, y más. Esto permite que cualquier espectador se sienta identificado y representado.
+                </p>
+            </div>
+            <div class="card">
+                <img src="../assets/images/rapidez.jpg" alt="Rapidez">
+                <h3>Series cortas y películas</h3>
+                <p>
+                    No necesitas invertir meses para disfrutar una buena historia. Hay animes de 12 o 24 episodios y películas autoconclusivas que te ofrecen experiencias completas en poco tiempo, ideales para quienes tienen agendas ocupadas.
+                </p>
+            </div>
+            <div class="card">
+                <img src="../assets/images/nostalgia.jpg" alt="Nostalgia">
+                <h3>Nostalgia y recuerdos</h3>
+                <p>
+                    Muchos crecimos con anime y siempre es bonito volver a ver clásicos como <strong>Pokémon</strong>, <strong>Dragon Ball</strong> o <strong>Sailor Moon</strong>. El anime conecta generaciones y crea recuerdos imborrables.
+                </p>
+            </div>
+            <div class="card">
+                <img src="../assets/images/impacto.jpg" alt="Impacto global">
+                <h3>Impacto global</h3>
+                <p>
+                    El anime ha influido en la moda, la música, los videojuegos y el arte en todo el mundo. Su impacto cultural es innegable y sigue creciendo año tras año, inspirando a creadores y fans de todas las edades.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Aniframe. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
