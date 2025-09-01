@@ -1,0 +1,22 @@
+{
+  "name": "sitio-web-anime",
+  "version": "1.0.0",
+  "description": "Un sitio web dedicado al anime, con recomendaciones y razones para ver anime.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "keywords": [
+    "anime",
+    "recomendaciones",
+    "razones",
+    "sitio web"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
